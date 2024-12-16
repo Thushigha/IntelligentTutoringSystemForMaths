@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Poppins";
+  src: url(../assets/fonts/Poppins-Regular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "PoppinsMedium";
+  src: url(../assets/fonts/Poppins-Medium.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "PoppinsSemiBold";
+  src: url(../assets/fonts/Poppins-SemiBold.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "PoppinsBold";
+  src: url(../assets/fonts/Poppins-Bold.ttf) format("truetype");
+}
+
+.mainBg {
+  background-image: url("../assets/images/bg/light-bg.svg");
+  background-size: cover;
+  height: inherit;
+}
+
+
+.p-dialog-mask {
+  backdrop-filter: blur(4px); /* Apply the blur effect */
+  -webkit-backdrop-filter: blur(8px); /* Safari support */
+  background-color: rgba(0, 0, 0, 0.2); /* Black background with 40% opacity */
+}
